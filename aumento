@@ -13,6 +13,7 @@ int main(int argc, char const *argv[])
         salario = salario + aumento;
 
         printf("o salario com aumento e: %.2f", salario);
+        printf("\nO aumento foi de: %.2f", aumento);
     }
     else if (salario > 1000.0 && salario <= 3000.0)
     {
@@ -20,6 +21,8 @@ int main(int argc, char const *argv[])
         salario = salario + aumento;
 
         printf("o salario com aumento e: %.2f", salario);
+
+        printf("\nO aumento foi de: %.2f", aumento);
     }
     else if (salario > 3000.0 && salario <= 8000.0)
     {
@@ -27,12 +30,16 @@ int main(int argc, char const *argv[])
         salario = salario + aumento;
 
         printf("o salario com aumento e: %.2f", salario);
+
+        printf("\nO aumento foi de: %.2f", aumento);
     }
     else {
         aumento = salario * 0.05;
         salario = salario + aumento;
 
         printf("o salario com aumento e: %.2f", salario);
+
+        printf("\nO aumento foi de: %.2f", aumento);
     }
     
     return 0;
