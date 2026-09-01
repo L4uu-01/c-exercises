@@ -1,5 +1,3 @@
-#include <stdio.h>
- 
 int n1, divisores;
 
 int main (){
@@ -11,9 +9,11 @@ int main (){
         if (n1 % i == 0)
         {
             divisores++;
-        }
-        
-        if (divisores == 2)
+        } 
+
+    }
+
+    if (divisores == 2)
         {
             printf("o numero %d e primo\n", n1);
         }
@@ -21,7 +21,5 @@ int main (){
         {
             printf("o numero %d nao e primo\n", n1);
         }
-    
-    }
     
 }
